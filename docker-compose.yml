@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  server:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile
+    image: back-end
+    container_name: converter-java-server
+    ports:
+      - "8080:8080" 
+    restart: always
+    
+  
+  client:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    image: front-end
+    container_name: converter-react-client
+    ports:
+      - "3000:80"
+   
