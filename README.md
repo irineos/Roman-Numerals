@@ -142,6 +142,11 @@ In the end, return the decimalNumber.
 PrimitiveRomanNumeral is a helper class with two static methods which map roman numerals to int and int to roman numeral respectively.
 
 
+# Deployment
+
+I used Docker and docker-compose to deploy this app to digitalocean.
+
+
 ------------
 ### [!!! Try the App !!!](http://146.190.227.11:3000/)
 ------------
