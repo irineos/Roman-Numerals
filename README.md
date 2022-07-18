@@ -27,3 +27,5 @@ Simply type
 docker-compose up -d
 ```
 and the app will be running at http://localhost:3000
+
+### You can also try it [here](http://146.190.227.11:3000/)
