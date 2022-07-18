@@ -17,7 +17,7 @@ const App = () => {
     const data = {
       number: numberToConvert
     }
-    const response = await axios.get(`http://146.190.227.11:8080/${inputNumberType === 'Roman' ? '2int' : '2roman'}`, {
+    const response = await axios.get(`http://localhost:8080/${inputNumberType === 'Roman' ? '2int' : '2roman'}`, {
       params : data
     })
     console.log('response', response)
