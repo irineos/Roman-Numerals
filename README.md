@@ -6,7 +6,8 @@ An application that converts roman numerals to integers and vice versa
 ------------
 
 ##  Run
-First download the project in your computer. Open the terminal in any directory you like and type:
+First download the project in your computer. 
+Open the terminal in any directory you like and type:
 
 ```sh
 git clone https://github.com/irineos/Roman-Numerals.git
