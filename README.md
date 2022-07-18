@@ -104,7 +104,7 @@ This package contains two classes and one interface. The class NumberConverter i
 
 This method checks if decimalNumber is greater than or equal to the highest base value then adds it's corresponding roman numeral to the romanNumeral string and subtracts this base value from decimalNumber.
 If decimalNumber is smaller than the highest base value then checks with next highest base value.
-Repeats this process till decimalNumber is 0. 
+Repeats this process till decimalNumber equals 0. 
 In the end romanNumeral will be the roman representation of decimalNumber.
 
 
