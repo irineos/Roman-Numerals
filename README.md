@@ -43,8 +43,8 @@ It uses [Axios](https://axios-http.com/docs/intro) library to send the input as 
 
 The backend consist of two main packages. 
 
-- [com.converter.restservice]()
-- [com.converter.romannumerals]()
+- [com.converter.restservice](https://github.com/irineos/Roman-Numerals/tree/master/back-end/src/main/java/com/converter/restservice)
+- [com.converter.romannumerals](https://github.com/irineos/Roman-Numerals/tree/master/back-end/src/main/java/com/converter/romannumerals)
 
 In the first one lives the API and all the server handling stuff, while the second package is responsible for the business logic of the app.
 
