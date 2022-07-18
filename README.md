@@ -48,7 +48,7 @@ The backend consist of two main packages.
 
 In the first one lives the API and all the server handling stuff, while the second package is responsible for the business logic of the app.
 
-### Api Endpoints
+### com.converter.restservice (Api Endpoints)
 
 - To convert from Roman numeral to Integer 
 ```
@@ -62,7 +62,14 @@ In the first one lives the API and all the server handling stuff, while the seco
 
 The API is written in Java with the help of Spring Boot framework.
 
-### Business Logic
+### com.converter.romannumerals
+
+This package contains two classes and one interface. The class NumberConverter implements the RomanNumeralGenerator interface and its two methods:
+- String generate(int) : takes an integer as parameter and returns the corresponding Roman Numeral
+- String parse(String) : takes a Roman Numeral in the form of String as parameter and return the corresponding integer value
+
+
+
 
 
 ------------
