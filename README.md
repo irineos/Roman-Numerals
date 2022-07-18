@@ -144,7 +144,7 @@ PrimitiveRomanNumeral is a helper class with two static methods which map roman 
 
 # Deployment
 
-I used Docker and docker-compose to deploy this app to digitalocean.
+I used Docker and docker-compose to deploy this app to Digitalocean.
 
 
 ------------
