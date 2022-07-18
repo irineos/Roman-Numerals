@@ -68,12 +68,20 @@ The API is written in Java with the help of Spring Boot framework.
 
 ### com.converter.romannumerals
 
+-----------
+In Roman numeral system numbers are represented by combinations of letters from the Latin alphabet.
+
+| Symbol  | I  | V  | X  | L  | C  | D  |  M |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Value  |  1 | 5  | 10  |  50 |  100 | 500  | 1000  |
+
+
 This package contains two classes and one interface. The class NumberConverter implements the RomanNumeralGenerator interface and its two methods:
 - String generate(int) : takes an integer as parameter and returns the corresponding Roman Numeral
 
 ```java
  public String generate(int decimalNumber) {
-        int[] values = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+        int[] baseValues = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
         String romanNumeral = "";
         if(decimalNumber > 3999 || decimalNumber<=0) return "Integer must be between 1 and 3999";
         while(decimalNumber>0) {
