@@ -77,7 +77,7 @@ In Roman numeral system, numbers are formed by combining letters from the Latin 
 
 Roman numerals are usually written from largest to smallest, and from left to right. However, the numeral for four is not IIII. Instead, it is written as IV. When there is a smaller number placed before a larger number, the values are subtracted. Because the one is placed before the five, we subtract it to get 4. The same principle applies to the number 9, which is written as IX, number 40, which is written as XL, 90 as XC, 400 as CD and 900 as CM.
 
-I call all these values as base values.
+I call all these values, Base values.
 
 ----------
 
@@ -101,6 +101,12 @@ This package contains two classes and one interface. The class NumberConverter i
         return romanNumeral;
     }
 ```
+
+This method checks if decimalNumber is greater than or equal to the highest base value then adds it's corresponding roman numeral to the romanNumeral string and subtracts this base value from decimalNumber.
+If decimalNumber is smaller than the highest base value then checks with next highest base value.
+Repeats this process till decimalNumber 0. 
+In the end romanNumeral will be the roman representation of decimalNumber.
+
 
 - String parse(String) : takes a Roman Numeral in the form of String as parameter and return the corresponding integer value
 
@@ -126,9 +132,14 @@ This package contains two classes and one interface. The class NumberConverter i
     }
 ```
 
+This method, loops through each character in the romanNumeral string.
+Then compares the value of the current roman symbol with the value of the next roman symbol.
+If the current value is greater than or equal to the value of the symbol to the right, adds the current symbol’s value to the total (decimalNumber).
+If the current value is smaller than the value of the symbol to the right, subtract the current symbol’s value from the total (decimalNumber).
+In the end, return the decimalNumber.
 
 
-
+PrimitiveRomanNumeral is a helper class with two static methods which map roman numerals to int and int to roman numeral respectively.
 
 
 ------------
