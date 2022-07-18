@@ -52,12 +52,12 @@ In the first one lives the API and all the server handling stuff, while the seco
 
 - To convert from Roman numeral to Integer 
 ```
-{BASE URL}/2int?number=<the roman number>
+{BASE URL}/2int?number=<enter_a_roman_number>
 ```
 
 - To convert from Integer to Roman numeral
 ```
-{BASE URL}/2roman?number=<the integer number>
+{BASE URL}/2roman?number=<enter_a_integer_number>
 ```
 
 The API is written in Java with the help of Spring Boot framework.
