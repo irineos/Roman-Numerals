@@ -3,6 +3,8 @@ An application that converts roman numerals to integers and vice versa
 
 [![App demo](https://github.com/irineos/Roman-Numerals/blob/master/demo.gif "App demo")](https://github.com/irineos/Roman-Numerals/blob/master/demo.gif "App demo")
 
+### You can try the App [here](http://146.190.227.11:3000/)
+
 ------------
 
 ##  Run
@@ -28,7 +30,6 @@ docker-compose up -d
 ```
 and the app will be running at http://localhost:3000
 
-### You can also try the App [here](http://146.190.227.11:3000/)
 
 ## Front End
 
