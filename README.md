@@ -23,7 +23,7 @@ cd Roman-Numerals
 ```
 The app uses Docker. So the only think you have to do, is to have Docker installed in your system.
 
-Simply type
+Simply type:
 
 ```sh
 docker-compose up -d
@@ -35,4 +35,4 @@ and the app will be running at http://localhost:3000
 
 The front end design is inspired by google translate app.
 
-It is a simple [React](https://reactjs.org/) app that uses [Axios](https://axios-http.com/docs/intro) library to send GET requests to the back end.
+It's a simple [React](https://reactjs.org/) app that uses [Axios](https://axios-http.com/docs/intro) library to send GET requests to the back end.
