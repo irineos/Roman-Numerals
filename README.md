@@ -69,12 +69,17 @@ The API is written in Java with the help of Spring Boot framework.
 ### com.converter.romannumerals
 
 -----------
-In Roman numeral system numbers are represented by combinations of letters from the Latin alphabet.
+In Roman numeral system, numbers are formed by combining letters from the Latin alphabet and adding their respective values.
 
 | Symbol  | I  | V  | X  | L  | C  | D  |  M |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Value  |  1 | 5  | 10  |  50 |  100 | 500  | 1000  |
 
+Roman numerals are usually written from largest to smallest, and from left to right. However, the numeral for four is not IIII. Instead, it is written as IV. When there is a smaller number placed before a larger number, the values are subtracted. Because the one is placed before the five, we subtract it to get 4. The same principle applies to the number 9, which is written as IX, number 40, which is written as XL, 90 as XC, 400 as CD and 900 as CM.
+
+I call all these values as base values.
+
+----------
 
 This package contains two classes and one interface. The class NumberConverter implements the RomanNumeralGenerator interface and its two methods:
 - String generate(int) : takes an integer as parameter and returns the corresponding Roman Numeral
