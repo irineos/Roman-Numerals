@@ -31,8 +31,33 @@ docker-compose up -d
 and the app will be running at http://localhost:3000
 
 
-## Front End
+## Front-End
 
 The front end design is inspired by google translate app.
 
-It's a simple [React](https://reactjs.org/) app that uses [Axios](https://axios-http.com/docs/intro) library to send GET requests to the back end.
+It's a simple [React](https://reactjs.org/) app that consists of two text-boxes. The left text-box is the input and the right one is the output.
+
+It uses [Axios](https://axios-http.com/docs/intro) library to send the input as a GET requests to the corresponding API endpoint. The response from the backend will be then rendered in the output text-box.
+
+## Back-End
+
+The backend consist of two main packages. 
+
+- [com.converter.restservice]()
+- [com.converter.romannumerals]()
+
+In the first one lives the API and all the server handling stuff, while the second package is responsible for the business logic of the app.
+
+### Api Endpoints
+
+- To convert from Roman numeral to Integer 
+```
+{BASE URL}/2int?number=<the roman number>
+```
+
+- To convert from Integer to Roman numeral
+```
+{BASE URL}/2roman?number=<the integer number>
+```
+
+The API is written in Java with the help of Spring Boot framework.
