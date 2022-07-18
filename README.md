@@ -55,10 +55,14 @@ In the first one lives the API and all the server handling stuff, while the seco
 {BASE URL}/2int?number=<roman number>
 ```
 
+[![2intScreenshot](https://github.com/irineos/Roman-Numerals/blob/master/2int.png)](https://github.com/irineos/Roman-Numerals/blob/master/2int.png)
+
 - To convert from Integer to Roman numeral
 ```
 {BASE URL}/2roman?number=<integer number>
 ```
+
+[![2romanScreenshot](https://github.com/irineos/Roman-Numerals/blob/master/2roman.png)](https://github.com/irineos/Roman-Numerals/blob/master/2roman.png)
 
 The API is written in Java with the help of Spring Boot framework.
 
