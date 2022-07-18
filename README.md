@@ -28,4 +28,10 @@ docker-compose up -d
 ```
 and the app will be running at http://localhost:3000
 
-### You can also try it [here](http://146.190.227.11:3000/)
+### You can also try the App [here](http://146.190.227.11:3000/)
+
+## Front End
+
+The front end design is inspired by google translate app.
+
+It is a simple [React](https://reactjs.org/) app that uses [Axios](https://axios-http.com/docs/intro) library to send GET requests to the back end.
