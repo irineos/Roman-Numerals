@@ -62,8 +62,9 @@ In the first one lives the API and all the server handling stuff, while the seco
 
 The API is written in Java with the help of Spring Boot framework.
 
+### Business Logic
 
 
-
+------------
 ### [!!! Try the App !!!](http://146.190.227.11:3000/)
 ------------
