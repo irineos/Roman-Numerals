@@ -107,7 +107,7 @@ If decimalNumber is smaller than the highest base value then checks with next hi
 Repeats this process till decimalNumber equals 0. 
 In the end romanNumeral will be the roman representation of decimalNumber.
 
-** Note that this algorithm doesn't check if the roman number is valid. **
+**Note that this algorithm doesn't check if the roman number is valid.**
 
 
 - String parse(String) : takes a Roman Numeral in the form of String as parameter and return the corresponding integer value
