@@ -107,8 +107,6 @@ If decimalNumber is smaller than the highest base value then checks with next hi
 Repeats this process till decimalNumber equals 0. 
 In the end romanNumeral will be the roman representation of decimalNumber.
 
-**Note that this algorithm doesn't check if the roman number is valid.**
-
 
 - String parse(String) : takes a Roman Numeral in the form of String as parameter and return the corresponding integer value
 
@@ -139,6 +137,8 @@ Then compares the value of the current roman symbol with the value of the next r
 If the current value is greater than or equal to the value of the symbol to the right, adds the current symbol’s value to the total (decimalNumber).
 If the current value is smaller than the value of the symbol to the right, subtract the current symbol’s value from the total (decimalNumber).
 In the end, return the decimalNumber.
+
+**Note that this algorithm doesn't check if the input roman number is valid.**
 
 
 PrimitiveRomanNumeral is a helper class with two static methods which map roman numerals to int and int to roman numeral respectively.
