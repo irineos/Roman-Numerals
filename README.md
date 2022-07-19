@@ -33,7 +33,7 @@ and the app will be running at http://localhost:3000
 
 ## Front-End
 
-The front end design is inspired by google translate app.
+The front end design is inspired by google translate app and was created with the help of this [tutorial](https://www.youtube.com/watch?v=aFISwq3wteY&t=2016s).
 
 It's a simple [React](https://reactjs.org/) app that consists of two text-boxes. The left text-box is the input and the right one is the output.
 
