@@ -3,8 +3,6 @@ An application that converts roman numerals to integers and vice versa
 
 [![App demo](https://github.com/irineos/Roman-Numerals/blob/master/demo.gif "App demo")](https://github.com/irineos/Roman-Numerals/blob/master/demo.gif "App demo")
 
-### You can try the App [here](http://146.190.227.11:3000/)
-
 ------------
 
 ##  Run
@@ -147,8 +145,3 @@ PrimitiveRomanNumeral is a helper class with two static methods which map roman 
 # Deployment
 
 I used Docker and docker-compose to deploy this app to Digitalocean.
-
-
-------------
-### [!!! Try the App !!!](http://146.190.227.11:3000/)
-------------
